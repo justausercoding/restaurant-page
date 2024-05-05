@@ -49,12 +49,15 @@ body {
         position: relative;
         top: -6px;
 
-        & .header__btn {
+        & .header__btn-home,
+        .header__btn-menu,
+        .header__btn-contact {
             color: var(--text-color);
             font-size: 1.2rem;
             background-color: white;
             border: none;
             padding: 0 0 0 10px;
+            cursor: pointer;
         }
     }
 }
