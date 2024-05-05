@@ -1,7 +1,9 @@
-
 import './style.css';
-import firstPage from "./modules/first_page.js";
+import homePage from "./modules/home_page.js";
+import menuPage from "./modules/menu_page.js";
 
 const content = document.querySelector("#content");
-content.appendChild(firstPage());
+content.appendChild(homePage());
+content.appendChild(menuPage())
+
 
