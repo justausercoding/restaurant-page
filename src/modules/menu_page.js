@@ -1,5 +1,4 @@
 function menuPage() {
-    console.log("running menuPage()")
 
     // -- Content of lists --
     const listEntradas = [
@@ -30,31 +29,31 @@ function menuPage() {
     // -- Create Elements --
     // indentation: level 1
     const menupage = document.createElement("div");
-    menupage.classList.add("menupage");
+    menupage.classList.add("page");
 
     // indentation: level 2
     const menupageContainer = document.createElement("div");
-    menupageContainer.classList.add("menupage__container");
+    menupageContainer.classList.add("page__container");
 
     // indentation: from here level 3
     const menupageTitle = document.createElement("h2");
-    menupageTitle.classList.add("menupage__title");
+    menupageTitle.classList.add("page__title");
     menupageTitle.innerHTML = "MENU";
 
     const menupageEntradas = document.createElement("h3");
-    menupageEntradas.classList.add("menupage__subtitle");
+    menupageEntradas.classList.add("page__subtitle");
     menupageEntradas.innerHTML = "Entradas";
 
     const menupageEspecialidades = document.createElement("h3");
-    menupageEspecialidades.classList.add("menupage__subtitle");
+    menupageEspecialidades.classList.add("page__subtitle");
     menupageEspecialidades.innerHTML = "Especialidades Argentinas";
 
     const menupagePostres = document.createElement("h3");
-    menupagePostres.classList.add("menupage__subtitle");
+    menupagePostres.classList.add("page__subtitle");
     menupagePostres.innerHTML = "Postres";
 
     const menupageBebidas = document.createElement("h3");
-    menupageBebidas.classList.add("menupage__subtitle");
+    menupageBebidas.classList.add("page__subtitle");
     menupageBebidas.innerHTML = "Bebidas";
 
     // -- Append elements (and also create list elements) --

@@ -85,11 +85,11 @@ body {
     }
 }
 
-/* Menu page */
+/* Menu page and contact page*/
 .menupage {
     display: flex;
     flex-direction: row;
-    justify-content: center;;
+    justify-content: center;
 
     .menupage__container {
         display: flex;
@@ -115,7 +115,4 @@ body {
             }
         }
     }
-
 }
-
-
