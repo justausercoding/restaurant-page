@@ -86,22 +86,22 @@ body {
 }
 
 /* Menu page and contact page*/
-.menupage {
+.page {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
-    .menupage__container {
+    .page__container {
         display: flex;
         flex-direction: column;
     
-        & .menupage__title {
+        & .page__title {
             font-size: 5rem;
             margin-bottom: 20px;
             align-self: center;
         }
     
-        & .menupage__subtitle {
+        & .page__subtitle {
             font-size: 1.5rem;  
             padding-top: 10px;  
         }
