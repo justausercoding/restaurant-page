@@ -4,7 +4,7 @@ const homePage = () => {
     
     // -- Create elements --
     const homepage = document.createElement("div");
-    container.classList.add("homepage");
+    homepage.classList.add("homepage");
 
     const img = new Image();
     img.src = image;
@@ -23,10 +23,10 @@ const homePage = () => {
     textParragraph2.classList.add("homepage__text2");
 
     // -- Append elements --
-    container.appendChild(img);
-    container.appendChild(textTitle);
-    container.appendChild(textParragraph1);
-    container.appendChild(textParragraph2);
+    homepage.appendChild(img);
+    homepage.appendChild(textTitle);
+    homepage.appendChild(textParragraph1);
+    homepage.appendChild(textParragraph2);
 
     return homepage;
 }
