@@ -1,6 +1,2 @@
 # Ignore folders
 node_modules
-dist
-
-# Ignore files
-src/todo.md
